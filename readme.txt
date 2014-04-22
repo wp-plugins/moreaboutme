@@ -3,7 +3,7 @@ Contributors: sierramike
 Tags: picture, image, about, author, widget
 Requires at least: 2.8
 Tested up to: 3.9
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Displays an AboutMe bloc, also known as a More About Me bloc, including a pictur
 2. Sample rendering.
 
 == Changelog ==
+
+= 1.1.1 =
+* Fixed image padding bottom
 
 = 1.1.0 =
 * Fixed stylesheet for more compatibility
