@@ -3,15 +3,15 @@ Contributors: sierramike
 Tags: picture, image, about, author, widget
 Requires at least: 2.8
 Tested up to: 3.9
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text. This plug-in is useful if you want to put a widget in a sidebar or footer to show a picture of your own and some descriptive text. Check the screenshots to see if it could fit your needs.
+Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text.
 
 == Description ==
 
-Displays an AboutMe bloc, including a picture and some text.
+Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text. This plug-in is useful if you want to put a widget in a sidebar or footer to show a picture of your own and some descriptive text. Check the screenshots to see if it could fit your needs.
 
 == Installation ==
 
@@ -26,6 +26,9 @@ Displays an AboutMe bloc, including a picture and some text.
 2. Sample rendering.
 
 == Changelog ==
+
+= 1.0.2 =
+* Updated description
 
 = 1.0.1 =
 * Updated screenshots and description of the first release
