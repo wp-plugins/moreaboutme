@@ -1,0 +1,11 @@
+.widget_moreaboutme_widget {
+}
+
+.widget_moreaboutme_widget .moreaboutme_img {
+		float: left;
+		padding-right: 10px;
+		padding-bottom: 10px;
+}
+
+.widget_moreaboutme_widget .moreaboutme_txt {
+}
