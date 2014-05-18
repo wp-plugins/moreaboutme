@@ -1,7 +1,7 @@
 <?php
 /**
  * @package MoreAboutMe_widget
- * @version 1.2
+ * @version 1.2.1
  */
 /*
   Plugin Name: MoreAboutMe Widget
@@ -12,7 +12,7 @@
   Author URI: http://stephane.moitry.fr
   License: GPL2
   Text Domain: moreaboutme-widget
-  Domain Path: /languages/
+  Domain Path: /languages
  */
 
 /*  Copyright 2013-2014  Stéphane Moitry (stephane.moitry@gmail.com)

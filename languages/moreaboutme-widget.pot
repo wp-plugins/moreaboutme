@@ -1,0 +1,37 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/moreaboutme\n"
+"POT-Creation-Date: 2014-05-18 14:27:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: moreaboutme-widget.php:9
+msgid "Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text. This plug-in is useful if you want to put a widget in a sidebar or footer to show a picture of your own and some descriptive text. Check the screenshots to see if it could fit your needs."
+msgstr ""
+
+#: moreaboutme-widget.php:41
+msgid "Displays an AboutMe bloc, including a picture and some text."
+msgstr ""
+
+#: moreaboutme-widget.php:108
+msgid "Title:"
+msgstr ""
+
+#: moreaboutme-widget.php:109
+msgid "Text:"
+msgstr ""
+
+#: moreaboutme-widget.php:110
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: moreaboutme-widget.php:111
+msgid "Image Url:"
+msgstr ""
