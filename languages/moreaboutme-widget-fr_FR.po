@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MoreAboutMe Widget\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/moreaboutme\n"
 "POT-Creation-Date: 2014-05-18 14:27:35+00:00\n"
-"PO-Revision-Date: Sun May 18 2014 19:47:51 GMT+0200 (Paris, Madrid (heure "
+"PO-Revision-Date: Mon May 19 2014 17:52:45 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "Last-Translator: smoitry <stephane.moitry@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 "comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Loco-Target-Locale: fr_FR\n"
 "X-Generator: Loco - https://localise.biz/"
+
+#: ../moreaboutme-widget.php:116
+msgid "Allow HTML tags"
+msgstr "Autoriser les tags HTML"
 
 #: moreaboutme-widget.php:9
 msgid ""
@@ -43,18 +47,18 @@ msgstr ""
 "Affiche un bloc &quot;En savoir plus&quot;, incluant une image et un peu de "
 "texte."
 
-#: moreaboutme-widget.php:108
+#: moreaboutme-widget.php:113
 msgid "Title:"
 msgstr "Titre :"
 
-#: moreaboutme-widget.php:109
+#: moreaboutme-widget.php:114
 msgid "Text:"
 msgstr "Texte :"
 
-#: moreaboutme-widget.php:110
+#: moreaboutme-widget.php:115
 msgid "Automatically add paragraphs"
 msgstr "Cr&eacute;er automatiquement les paragraphes"
 
-#: moreaboutme-widget.php:111
+#: moreaboutme-widget.php:117
 msgid "Image Url:"
 msgstr "Url de l'image :"

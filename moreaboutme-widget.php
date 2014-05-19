@@ -1,13 +1,13 @@
 <?php
 /**
  * @package MoreAboutMe_widget
- * @version 1.2.2
+ * @version 1.3
  */
 /*
   Plugin Name: MoreAboutMe Widget
   Plugin URI: http://wordpress.org/plugins/moreaboutme
   Description: Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text. This plug-in is useful if you want to put a widget in a sidebar or footer to show a picture of your own and some descriptive text. Check the screenshots to see if it could fit your needs.
-  Version: 1.2.2
+  Version: 1.3
   Author: Stéphane Moitry
   Author URI: http://stephane.moitry.fr
   License: GPL2
@@ -46,9 +46,13 @@ class moreaboutme_widget_Widget extends WP_Widget {
 	function widget($args, $instance) {
 		extract($args);
 		$title = apply_filters('widget_title', $instance['title']);
-		$texte = esc_attr($instance['texte']);
 		$imageurl = esc_attr($instance['imageurl']);
 		$filter = $instance['filter'];
+		$allowhtml = $instance['allowhtml'];
+		if (!empty( $allowhtml ))
+			$texte = $instance['texte'];
+		else
+			$texte = esc_attr($instance['texte']);
 
 		echo $before_widget;
 
@@ -83,6 +87,7 @@ class moreaboutme_widget_Widget extends WP_Widget {
 		else
 			$instance['texte'] = stripslashes( wp_filter_post_kses( addslashes($new_instance['texte']) ) ); // wp_filter_post_kses() expects slashed
 		$instance['filter'] = isset($new_instance['filter']);
+		$instance['allowhtml'] = isset($new_instance['allowhtml']);
 		$instance['imageurl'] = strip_tags($new_instance['imageurl']);
 		return $instance;
 	}
@@ -108,6 +113,7 @@ class moreaboutme_widget_Widget extends WP_Widget {
 		<p><label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title:', 'moreaboutme-widget'); ?> <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" /></label></p>
 		<p><label for="<?php echo $this->get_field_id('texte'); ?>"><?php _e('Text:', 'moreaboutme-widget'); ?> <textarea class="widefat" class="widefat" rows="16" cols="20" id="<?php echo $this->get_field_id('texte'); ?>" name="<?php echo $this->get_field_name('texte'); ?>"><?php echo $texte; ?></textarea></label></p>
 		<p><input id="<?php echo $this->get_field_id('filter'); ?>" name="<?php echo $this->get_field_name('filter'); ?>" type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />&nbsp;<label for="<?php echo $this->get_field_id('filter'); ?>"><?php _e('Automatically add paragraphs', 'moreaboutme-widget'); ?></label></p>
+		<p><input id="<?php echo $this->get_field_id('allowhtml'); ?>" name="<?php echo $this->get_field_name('allowhtml'); ?>" type="checkbox" <?php checked(isset($instance['allowhtml']) ? $instance['allowhtml'] : 0); ?> />&nbsp;<label for="<?php echo $this->get_field_id('allowhtml'); ?>"><?php _e('Allow HTML tags', 'moreaboutme-widget'); ?></label></p>
 		<p><label for="<?php echo $this->get_field_id('imageurl'); ?>"><?php _e('Image Url:', 'moreaboutme-widget'); ?> <input class="widefat" id="<?php echo $this->get_field_id('imageurl'); ?>" name="<?php echo $this->get_field_name('imageurl'); ?>" type="text" value="<?php echo $imageurl; ?>" /></label></p>
 <?php
 	}

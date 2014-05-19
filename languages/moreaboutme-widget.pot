@@ -20,18 +20,22 @@ msgstr ""
 msgid "Displays an AboutMe bloc, including a picture and some text."
 msgstr ""
 
-#: moreaboutme-widget.php:108
+#: moreaboutme-widget.php:113
 msgid "Title:"
 msgstr ""
 
-#: moreaboutme-widget.php:109
+#: moreaboutme-widget.php:114
 msgid "Text:"
 msgstr ""
 
-#: moreaboutme-widget.php:110
+#: moreaboutme-widget.php:115
 msgid "Automatically add paragraphs"
 msgstr ""
 
-#: moreaboutme-widget.php:111
+#: ../moreaboutme-widget.php:116
+msgid "Allow HTML tags"
+msgstr ""
+
+#: moreaboutme-widget.php:117
 msgid "Image Url:"
 msgstr ""
