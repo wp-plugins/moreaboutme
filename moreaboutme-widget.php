@@ -1,13 +1,13 @@
 <?php
 /**
  * @package MoreAboutMe_widget
- * @version 1.3
+ * @version 1.3.1
  */
 /*
   Plugin Name: MoreAboutMe Widget
   Plugin URI: http://wordpress.org/plugins/moreaboutme
   Description: Displays an AboutMe bloc, also known as a More About Me bloc, including a picture and some text. This plug-in is useful if you want to put a widget in a sidebar or footer to show a picture of your own and some descriptive text. Check the screenshots to see if it could fit your needs.
-  Version: 1.3
+  Version: 1.3.1
   Author: Stéphane Moitry
   Author URI: http://stephane.moitry.fr
   License: GPL2
@@ -15,7 +15,7 @@
   Domain Path: /languages
  */
 
-/*  Copyright 2013-2014  Stéphane Moitry (stephane.moitry@gmail.com)
+/*  Copyright 2013-2015  Stéphane Moitry (stephane.moitry@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as

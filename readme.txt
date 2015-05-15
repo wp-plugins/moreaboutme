@@ -2,8 +2,8 @@
 Contributors: sierramike
 Tags: picture, image, about, author, widget
 Requires at least: 2.8
-Tested up to: 3.9.1
-Stable tag: 1.3
+Tested up to: 4.2.2
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Displays an AboutMe bloc, also known as a More About Me bloc, including a pictur
 2. Sample rendering.
 
 == Changelog ==
+
+= 1.3.1 =
+* Checked with WordPress 4.2.2
 
 = 1.3 =
 * Added checkbox to allow HTML tags in the text
